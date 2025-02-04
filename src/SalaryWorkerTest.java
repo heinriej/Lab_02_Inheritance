@@ -18,10 +18,8 @@ public class SalaryWorkerTest {
 
     @Test
     public void testDisplayWeeklyPay() {
-        // This test captures the output of displayWeeklyPay method
         double expectedWeeklyPay = 104000.0 / 52;
         sw.displayWeeklyPay(40);
-        // You can use a library like System Rules to capture and assert the output
     }
 
     @Test
